@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string>
+#ifndef STORE_H
+#define STORE_H
+
+
 using namespace std; 
 
 class Store {
@@ -13,4 +17,5 @@ class Store {
 	double calctotal();
 	string getName();
 
-}
+};
+#endif

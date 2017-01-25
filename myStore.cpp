@@ -11,9 +11,4 @@ double Store::calctotal(){
 	  total=items*price;
 	  return total;
 }
----main
-#include "store.h"	 
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std; 
+
